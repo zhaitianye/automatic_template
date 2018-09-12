@@ -8,17 +8,17 @@
   "dependencies": {
     "async": "^2.6.1",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "~2.5.7",
+    "debug": "^4.0.1",
+    "ejs": "^2.6.1",
     "express": "^4.16.3",
     "express-fileupload": "^0.4.0",
     "formidable": "^1.2.1",
-    "http-errors": "^1.6.3",
+    "http-errors": "^1.7.1",
     "js-md5": "^0.7.3",
     "lodash": "^4.17.10",
-    "log4js": "^2.10.0",
+    "log4js": "^3.0.5",
     "moment": "^2.22.2",
-    "morgan": "~1.9.0",
+    "morgan": "^1.9.1",
     "uuid": "^3.3.2"
   }
 }
