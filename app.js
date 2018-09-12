@@ -19,6 +19,7 @@ var app = express();
 //视图路径，引擎设置
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
 //日志中间件,处理http请求的
 app.use(morgan('dev'));
 //express.json中间件

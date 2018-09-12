@@ -4,7 +4,7 @@ var router = express.Router();
 
 //主页路由
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'Express'});  
+    res.render('index.html', {title: 'Express'});  
 });
 
 
