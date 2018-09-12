@@ -14,7 +14,6 @@ logger = require("./common/Log/log.js");;
 
 //路由模块
 var indexRouter = require('./routes/index');
-
 //中间件部分
 var app = express();
 //视图路径，引擎设置
